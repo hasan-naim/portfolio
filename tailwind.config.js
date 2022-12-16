@@ -9,8 +9,13 @@ module.exports = {
           800: "#2D2F31",
         },
         primaryBlue: {
-          900: "#004a77",
+          800: "#004a77",
+          900: "#003a5b",
         },
+      },
+      fontFamily: {
+        roboto: "'Roboto', sans-serif",
+        inter: "'Inter', sans-serif",
       },
     },
   },
