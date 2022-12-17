@@ -3,7 +3,7 @@ import PrimaryButton from "../PrimaryButton/PrimaryButton";
 
 function Banner() {
   return (
-    <div>
+    <main>
       <div className="container">
         <div className="min-h-[80vh] flex justify-center items-center text-center">
           <div className="text-center">
@@ -21,13 +21,13 @@ function Banner() {
                 target={"_blank"}
                 className="inline-block"
               >
-                <PrimaryButton text={"Get Resume"} styles={"rounded-[39px]"} />
+                <PrimaryButton text={"Get Resume"} styles={"rounded-[38px]"} />
               </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
