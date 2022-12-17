@@ -1,5 +1,5 @@
 import React from "react";
-import PrimaryButton from "../PrimaryButton/PrimaryButton";
+import NavbarButton from "../NavbarButton/NavbarButton";
 
 function Navbar() {
   return (
@@ -36,7 +36,7 @@ function Navbar() {
               href="https://drive.google.com/file/d/1Xel4JxgekURyJtXEUk3m3jJMqUCwW48h/view?usp=sharing"
               target={"_blank"}
             >
-              <PrimaryButton text="Resume" title={"View My Resume"} />
+              <NavbarButton text="Resume" title={"View My Resume"} />
             </a>
           </div>
         </div>

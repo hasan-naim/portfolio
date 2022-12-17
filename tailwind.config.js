@@ -12,6 +12,9 @@ module.exports = {
           800: "#004a77",
           900: "#003a5b",
         },
+        primarySkyBlue: {
+          800: "#a8c7fa",
+        },
       },
       fontFamily: {
         roboto: "'Roboto', sans-serif",
