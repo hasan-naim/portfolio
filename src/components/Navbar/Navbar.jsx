@@ -3,7 +3,7 @@ import NavbarButton from "../NavbarButton/NavbarButton";
 
 function Navbar() {
   return (
-    <header className="bg-primaryDark-800 py-3 shadow-lg">
+    <header className="bg-primaryDark-800 py-3 shadow-xl sticky top-0 left-0">
       <div className="container">
         <div className="flex justify-between items-center ">
           <div>
