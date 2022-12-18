@@ -1,15 +1,17 @@
 import React from "react";
-import Banner from "../components/Banner/Banner";
 import Navbar from "../components/Navbar/Navbar";
-import ProjectsSection from "../components/ProjectsSection/ProjectsSection";
+import AboutMe from "../components/Sections/AboutMe/AboutMe";
+import Banner from "../components/Sections/Banner/Banner";
+import ProjectsSection from "../components/Sections/ProjectsSection/ProjectsSection";
 
 function Home() {
   return (
-    <>
+    <div id="home">
       <Navbar />
       <Banner />
       <ProjectsSection />
-    </>
+      <AboutMe />
+    </div>
   );
 }
 

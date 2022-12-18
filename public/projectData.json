@@ -2,10 +2,25 @@
   {
     "id": 1,
     "title": "Your Kitch",
-    "desc": "Something for now Something for now Something for now Something for now Something for now",
+    "desc": "This is a cloud Kitchen website. Where users can list their meals and customers can review them.",
     "images": ["https://i.ibb.co/7kLsyr8/your-Kitch.png"],
     "liveLink": "https://your-kitch-ph-assignment-11.web.app/",
     "clientLink": "https://github.com/hasan-naim/your-kitch-client",
     "serverLink": "https://github.com/hasan-naim/your-kitch-backend"
+  },
+  {
+    "id": 2,
+    "title": "QuizBudd",
+    "desc": "This is a quiz taking website. Here you can give test in html, css, js etc. You can check the answers in real time.",
+    "images": ["https://i.ibb.co/5RXq4FT/quizBudd.png"],
+    "liveLink": "https://quizbudd.netlify.app/",
+    "clientLink": "https://github.com/hasan-naim/quizBudd-client"
+  },
+  {
+    "id": 3,
+    "title": "Book House",
+    "desc": "This is a buying/selling website. Here anyone one can add their used book and buyers can buy them. Admin can manage all the buyers and sellers.",
+    "images": ["https://i.ibb.co/dByV18v/book-House.png"],
+    "liveLink": "https://book-house-39dbb.web.app/"
   }
 ]
