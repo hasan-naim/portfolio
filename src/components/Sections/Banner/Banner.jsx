@@ -36,7 +36,7 @@ function Banner() {
                       <BsBoxArrowUpRight className="font-medium" />
                     </span>
                   }
-                  styles={"rounded-[39px] py-8"}
+                  styles={"rounded-[39px]"}
                 />
               </a>
             </div>

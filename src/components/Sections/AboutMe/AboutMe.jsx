@@ -4,7 +4,7 @@ import MyImg from "../../../assets/hasan-naim.png";
 
 function AboutMe() {
   return (
-    <section id="aboutMe">
+    <section id="aboutMe" className="mb-24">
       <div className="container">
         <HeadLine text={"About Me"} />
         <div className="flex gap-6 flex-col md:flex-row justify-center items-center">
@@ -14,7 +14,7 @@ function AboutMe() {
             </div>
           </div>
           <div className="w-full text-gray-300">
-            <p className="w-2/3 text-xl font-medium">
+            <p className="lg:w-2/3 lg:text-xl font-medium text-gray-300">
               I am Hasan Naim. A front-end developer from Bangladesh. Learning
               and building projects. Growing myself everyday. Trying to
               establish myself as a software-enginer in the tech industry.

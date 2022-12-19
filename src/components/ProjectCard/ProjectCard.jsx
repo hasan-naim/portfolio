@@ -3,7 +3,7 @@ import { BsBoxArrowUpRight, BsGithub } from "react-icons/bs";
 import { BiServer } from "react-icons/bi";
 function ProjectCard({ project }) {
   return (
-    <div className="bg-primaryDark-800 w-100 overflow-hidden rounded-3xl h-auto pb-6  hover:shadow-lg hover:bg-gray-800  duration-500">
+    <div className="bg-primaryDark-800 w-100 overflow-hidden rounded-3xl h-auto pb-6  hover:shadow-lg md:hover:bg-gray-800   duration-500">
       {/* Image div */}
       <div className="p-6 rounded-xl overflow-hiddden h-auto">
         <img
