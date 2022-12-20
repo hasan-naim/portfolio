@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import HeadLine from "../../HeadLine/HeadLine";
+import PrimaryButton from "../../PrimaryButton/PrimaryButton";
 import ProjectCard from "../../ProjectCard/ProjectCard";
 
 function ProjectsSection() {
@@ -21,6 +24,19 @@ function ProjectsSection() {
               /// Card
               <ProjectCard project={project} key={project.id} />
             ))}
+          </div>
+          <div className="mt-4 w-fit mx-auto">
+            {/* <Link to={"/projects"}> */}
+            <PrimaryButton
+              text={
+                <span className="flex gap-2 items-center font-medium">
+                  <span>See All</span>
+                  <FaArrowRight className="font-medium" />
+                </span>
+              }
+              styles={"rounded-[39px] "}
+            />
+            {/* </Link> */}
           </div>
         </div>
       </div>

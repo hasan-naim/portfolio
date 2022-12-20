@@ -40,10 +40,17 @@ function Footer() {
         </div>
         <div className="w-fit mx-auto text-center">
           <p className="font-medium text-sm text-gray-300">
-            Copyright © 2022 Hasan Naim All rights reserved.
+            Copyright © 2022 <span className="font-bold"> Hasan Naim</span> All
+            rights reserved.
           </p>
           <p className="font-medium text-sm text-gray-300">
-            contact: hasannaim6246@gmail.com
+            contact:{" "}
+            <a
+              className="font-bold text-md hover:text-primaryBlue-900 duration-200"
+              href="mailto:hasannaim6246@gmail.com"
+            >
+              hasannaim6246@gmail.com
+            </a>
           </p>
         </div>
       </div>
