@@ -16,7 +16,7 @@ function ProjectsSection() {
       <div className="container">
         <HeadLine text={"Projects"} />
         <div className="mt-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2 gap-y-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
             {data.map((project) => (
               /// Card
               <ProjectCard project={project} key={project.id} />

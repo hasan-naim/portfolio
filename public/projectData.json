@@ -21,6 +21,8 @@
     "title": "Book House",
     "desc": "This is a buying/selling website. Here anyone one can add their used book and buyers can buy them. Admin can manage all the buyers and sellers.",
     "images": ["https://i.ibb.co/dByV18v/book-House.png"],
-    "liveLink": "https://book-house-39dbb.web.app/"
+    "liveLink": "https://book-house-39dbb.web.app/",
+    "clientLink": "https://github.com/hasan-naim/book-house-client",
+    "serverLink": "https://github.com/hasan-naim/book-house-server"
   }
 ]
